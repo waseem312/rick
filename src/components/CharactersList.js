@@ -1,20 +1,17 @@
-import FadeIn from 'react-fade-in/lib/FadeIn';
 import Pagination from 'react-js-pagination';
 import CharacterCard from './CharacterCard';
 import paginationStyles from '../pages/Pagination.module.css';
-import styles from './CharactersList.module.css';
 
 function CharactersList(props) {
   return (
     <>
-        <FadeIn className={styles['characters-container']}>
+        
                 {props.characters && props.characters.map(character => (
                     <CharacterCard 
                         character={character} 
                         key={character.id}
                     />
                 ))}
-        </FadeIn>
         {props.totalItems > 20 && 
             <Pagination 
                 activePage={props.page}

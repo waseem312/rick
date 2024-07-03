@@ -1,7 +1,7 @@
 .accordion-item-btn {
     font-family: 'Josefin Sans', sans-serif;
     position: relative;
-    background-color: #393939;
+    border-bottom: 1px solid #D5D8DC;
     padding: 10px 15px;
     cursor: pointer;
     text-align: center;

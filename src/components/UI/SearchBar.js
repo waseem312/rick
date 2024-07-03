@@ -22,7 +22,6 @@ function SearchBar({ search }) {
             <input 
                 value={input} 
                 onChange={handleOnChange} 
-                placeholder='Type here to search character...'
                 className={styles['search-input']}
             />
             <button className={styles['search-btn']}>Search</button>

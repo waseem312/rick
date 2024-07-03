@@ -4,6 +4,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    padding-top: 40px;
 }
 
 @media (max-width: 1400px) {

@@ -28,10 +28,10 @@ function FilterSettings(props) {
                         resetFilters={props.resetFilters}
                     />
                 }
-                {props.status && 
+                {props.origin && 
                     <FilterSelection
-                        filterName='status'
-                        filterValue={props.status}
+                        filterName='origin'
+                        filterValue={props.origin.name}
                         resetFilters={props.resetFilters}
                     />
                 }

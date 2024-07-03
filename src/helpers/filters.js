@@ -1,16 +1,6 @@
 const filters =  [
     {
         id: 1,
-        filterName: 'gender',
-        options: [
-            'female', 
-            'male', 
-            'genderless', 
-            'unknown'
-        ]
-    },
-    {
-        id: 2,
         filterName: 'species',
         options: [
             'human',
@@ -27,12 +17,24 @@ const filters =  [
         ]
     },
     {
-        id: 3,
-        filterName: 'status',
+        id: 2,
+        filterName: 'gender',
         options: [
-            'alive', 
-            'dead', 
+            'female', 
+            'male', 
+            'genderless', 
             'unknown'
+        ]
+    },
+    ,
+    {
+        id: 3,
+        filterName: 'origin',
+        options: [
+            'Abadango',
+            'unknown', 
+            'Earth (C-137)', 
+            'Earth (Replacement Dimension)'
         ]
     },
 ];

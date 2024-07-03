@@ -1,9 +1,12 @@
-import useToggle from '../../hooks/useToggle';
 import FilterForm from './FilterForm';
 import styles from './AccordionItem.module.css';
+import { useState } from 'react';
 
 function AccordionItem({ filterName, options }) {
-    const [active, toggleActive] = useToggle(false);
+    const [active, setActive] = useState(true);
+    function toggleActive(){
+        setActive(!active)
+    }
 
     return (
         <div className={`${styles['accordion-item']} ${active ? styles.active : ''}`}>

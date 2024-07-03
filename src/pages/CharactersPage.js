@@ -35,7 +35,7 @@ function CharactersPage() {
         document.title = `Characters | Page ${filter.currentPage}`;
 
         async function fetchCharacters() {
-            const url = `${API_URL}character/${location.search}`;
+            const url = `${API_URL}/${location.search}`;
             const response = await fetch(url);
             const data = await response.json();
 
@@ -90,7 +90,7 @@ function CharactersPage() {
             queryParams.delete(paramName);
         } else {
             queryParams.delete('gender');
-            queryParams.delete('status');
+            queryParams.delete('origin');
             queryParams.delete('species');
         }
         

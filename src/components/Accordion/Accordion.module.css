@@ -1,15 +1,15 @@
 .accordion {
-    color: #fff;
+    color: #000;
     border-radius: 10px;
     min-width: 200px;
     width: 200px;
     margin-bottom: 1rem;
+    background: #F8F9F9;
 }
 
 .header {
     padding: .1rem 1rem;
     text-align: center;
-    background-color: #000;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }

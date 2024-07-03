@@ -16,17 +16,17 @@
 }
 
 .pagination .link:hover:not(.btn-first-page, .btn-last-page) {
-    color: #B3D24C;
+    color: #000;
 }
 
 .pagination .active-page {
-    color: #fff;
+    color: #000;
 }
 
 .pagination .btn-first-page,
 .pagination .btn-last-page {
     color: #fff;
-    background-color: #B3D24C;
+    background-color: #000;
     padding: .5rem .8rem;
     border-radius: 5px;
 }

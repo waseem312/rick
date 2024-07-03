@@ -13,6 +13,7 @@ function CharacterCard({ character }) {
                 <div className={styles['character-name']}>{character.name}</div>
                 <div>Species : {character.species}</div>
                 <div>Gender : {character.gender}</div>
+                <div>Origin : {character.origin.name}</div>
                 <div>Status : {character.status}</div>
                 <div className={styles['character-card-footer']}>
                 </div>
