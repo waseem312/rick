@@ -1,0 +1,27 @@
+.search-result-message {
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+    height: 35px;
+    color: #8b8b8b;
+    padding: .5rem 1rem;
+}
+
+.main-content {
+    padding: 0 1rem;
+    display: flex;
+}
+
+.right-side {
+    width: 100%;
+}
+
+.sorting-sort {
+    float: right !important;
+
+}
+
+@media (max-width: 850px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
