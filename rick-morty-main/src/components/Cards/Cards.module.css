@@ -1,0 +1,8 @@
+.cards{
+    border: 2px solid #1e0404;
+    border-radius: 10px;
+}
+
+.img{
+    border-radius: 10px 10px 0 0;
+}
